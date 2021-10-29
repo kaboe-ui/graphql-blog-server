@@ -1,55 +1,21 @@
-# adonis-graphql-server
+# springblog-app
 
-A GraphQL server built with Apollo server and AdonisJs
+> A Vue.js project
 
-## Getting Started
+## Build Setup
 
-Clone the project repository by running the command below if you use SSH
-
-```bash
-git clone git@github.com:ammezie/adonis-graphql-server.git
-```
-
-If you use https, use this instead
-
-```bash
-git clone https://github.com/ammezie/adonis-graphql-server.git
-```
-
-## Setup
-
-Run the command below to install dependencies
-
-```bash
+``` bash
+# install dependencies
 npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
 ```
 
-### Environment variables
-
-Duplicate `.env.example` and rename it `.env`
-
-### Migrations
-
-Setup your database and enter the following in `.env`
-
-```
-DB_CONNECTION=mysql
-DB_HOST=localhost
-DB_DATABASE=adonis_graphql_server
-DB_USER=root
-DB_PASSWORD=
-```
-
-Run the following command to run migration.
-
-```bash
-adonis migration:run
-```
-
-Finally, start the application:
-
-```bash
-adonis serve --dev
-```
-
-and visit [http://127.0.0.1:3333](http://127.0.0.1:3333) to see the application in action.
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
